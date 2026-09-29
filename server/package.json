@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "npx -y -p node@22 node --watch src/index.js",
-    "start": "npx -y -p node@22 node src/index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
